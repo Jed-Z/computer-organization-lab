@@ -1,0 +1,241 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Nov 14 20:51:52 2018
+# Process ID: 11736
+# Current directory: E:/_Vivado/SingleCycleCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15640 E:\_Vivado\SingleCycleCPU\SingleCycleCPU.xpr
+# Log file: E:/_Vivado/SingleCycleCPU/vivado.log
+# Journal file: E:/_Vivado/SingleCycleCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/_Vivado/SingleCycleCPU/SingleCycleCPU.xpr
+update_ip_catalog
+update_ip_catalog
+update_ip_catalog
+export_ip_user_files -of_objects  [get_files E:/_Vivado/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/SingleCycleCPU.v] -no_script -reset -force -quiet
+remove_files  E:/_Vivado/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/SingleCycleCPU.v
+file delete -force E:/_Vivado/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/SingleCycleCPU.v
+close [ open E:/_Vivado/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/top_CPU.v w ]
+add_files E:/_Vivado/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/top_CPU.v
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top_CPU [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+reset_simulation -simset sim_1 -mode behavioral
+update_ip_catalog
+launch_simulation
+launch_simulation
+launch_simulation
+source CPU_sim_1.tcl
+close_sim
+launch_simulation
+source CPU_sim_1.tcl
+run 10 us
+restart
+run 10 us
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+run 100 ns
+close_sim
+launch_simulation
+source CPU_sim_1.tcl
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+run all
+restart
+run 100 ns
+run 100 ns
+restart
+run 100 ns
+run 100 ns
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+run 100 ns
+run 100 ns
+restart
+close_sim
+launch_simulation
+source CPU_sim_1.tcl
+restart
+run 100 ns
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run all
+run 100 ns
+run 100 ns
+restart
+run 100 ns
+run all
+close_sim
+launch_simulation
+source CPU_sim_1.tcl
+close_sim
+launch_simulation
+source CPU_sim_1.tcl
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run all
+close_sim
+launch_simulation
+source CPU_sim_1.tcl
+run all
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+run 100 ns
+run 100 ns
+restart
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CPU_sim_1.tcl
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CPU_sim_1.tcl
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CPU_sim_1.tcl
+restart
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim

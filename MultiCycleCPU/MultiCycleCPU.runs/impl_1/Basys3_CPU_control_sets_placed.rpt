@@ -1,0 +1,175 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Mon Dec 24 16:40:29 2018
+| Host         : GS63 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Basys3_CPU_control_sets_placed.rpt
+| Design       : Basys3_CPU
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   107 |
+| Unused register locations in slices containing registers |    52 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      2 |            3 |
+|      3 |            2 |
+|      8 |           65 |
+|    16+ |           35 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             152 |           76 |
+| No           | No                    | Yes                    |               3 |            1 |
+| No           | Yes                   | No                     |              26 |            7 |
+| Yes          | No                    | No                     |             512 |          284 |
+| Yes          | No                    | Yes                    |            1031 |          428 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+-----------------------------------------+---------------------------------------+------------------+----------------+
+|        Clock Signal        |              Enable Signal              |            Set/Reset Signal           | Slice Load Count | Bel Load Count |
++----------------------------+-----------------------------------------+---------------------------------------+------------------+----------------+
+|  top_CPU/IR/out_reg[15][1] |                                         |                                       |                1 |              1 |
+|  basys3_clock_IBUF_BUFG    |                                         |                                       |                1 |              1 |
+|  Four_LED/clk_div/CLK      |                                         |                                       |                1 |              2 |
+|  top_CPU/IR/out_reg[15][2] |                                         |                                       |                1 |              2 |
+|  top_CPU/IR/out_reg[15][0] |                                         |                                       |                1 |              2 |
+|  top_CPU/IR/out_reg[15][3] |                                         |                                       |                1 |              3 |
+|  next_button_IBUF_BUFG     |                                         | top_CPU/RegisterFile/file_reg[1][7]_0 |                1 |              3 |
+|  top_CPU/IR/out_reg[15][4] |                                         |                                       |                2 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[54][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[58][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[8][7]_0[0]  |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[5][7]_0[0]  |                                       |                6 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[9][7]_0[0]  |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[60][7]_1[0] |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[63][0][0]   |                                       |                6 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[6][7][0]    |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[7][0][0]    |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[62][7][0]   |                                       |                7 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[61][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[16][7]_0[0] |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[0][7]_0[0]  |                                       |                6 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[11][0][0]   |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[10][7]_0[0] |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[12][7]_0[0] |                                       |                6 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[14][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[15][0][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[13][7][0]   |                                       |                7 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[17][7]_0[0] |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[18][7]_0[0] |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[26][7][0]   |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[1][7][0]    |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[23][0][0]   |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[21][7][0]   |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[22][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[28][7]_0[0] |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[2][7][0]    |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[29][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[20][7]_0[0] |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[27][0][0]   |                                       |                6 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[32][7]_0[0] |                                       |                2 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[19][0][0]   |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[33][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[34][7][0]   |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[35][0][0]   |                                       |                6 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[25][7][0]   |                                       |                6 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[31][0][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[24][7]_0[0] |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[30][7][0]   |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[42][7][0]   |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[36][7]_0[0] |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[44][7]_0[0] |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[37][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[48][7]_0[0] |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[45][7][0]   |                                       |                7 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[49][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[47][0][0]   |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[40][7]_0[0] |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[38][7][0]   |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[41][7][0]   |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[43][0][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[50][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[51][0][0]   |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[3][0][0]    |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[4][7]_0[0]  |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[39][0][0]   |                                       |                6 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[46][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[55][0][0]   |                                       |                5 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[52][7]_0[0] |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[53][7][0]   |                                       |                3 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[57][7][0]   |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[56][7]_0[0] |                                       |                4 |              8 |
+| ~next_button_IBUF_BUFG     | top_CPU/ControlUnit/RAM_reg[59][0][0]   |                                       |                4 |              8 |
+|  basys3_clock_IBUF_BUFG    |                                         | Four_LED/clk_div/clear                |                7 |             26 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[7][31][0]           | top_CPU/RegisterFile/file_reg[1][7]_0 |               16 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[24][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               21 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/E[0]                         | top_CPU/RegisterFile/file_reg[1][7]_0 |               18 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[11][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               20 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[12][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               12 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[13][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               13 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[14][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |                9 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[10][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               22 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[28][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               10 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[26][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               14 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[3][31][0]           | top_CPU/RegisterFile/file_reg[1][7]_0 |               10 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[17][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               14 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[22][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               10 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[6][31][0]           | top_CPU/RegisterFile/file_reg[1][7]_0 |               12 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[9][31][0]           | top_CPU/RegisterFile/file_reg[1][7]_0 |               11 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[31][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               14 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[25][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               15 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[2][31][0]           | top_CPU/RegisterFile/file_reg[1][7]_0 |               16 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[5][31][0]           | top_CPU/RegisterFile/file_reg[1][7]_0 |               14 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[15][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               16 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[4][31][0]           | top_CPU/RegisterFile/file_reg[1][7]_0 |               12 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[27][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               12 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[30][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |                7 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[20][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               12 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[18][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               13 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[29][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               10 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[8][31][0]           | top_CPU/RegisterFile/file_reg[1][7]_0 |                9 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[16][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               19 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[19][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               11 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[23][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               12 |             32 |
+| ~next_button_IBUF_BUFG     | top_CPU/IR/file_reg[21][31][0]          | top_CPU/RegisterFile/file_reg[1][7]_0 |               10 |             32 |
+| ~next_button_IBUF_BUFG     |                                         |                                       |               22 |             37 |
+|  next_button_IBUF_BUFG     | top_CPU/ControlUnit/E[0]                | top_CPU/RegisterFile/file_reg[1][7]_0 |               14 |             39 |
+|  next_button_IBUF_BUFG     |                                         |                                       |               46 |             96 |
++----------------------------+-----------------------------------------+---------------------------------------+------------------+----------------+
+
+

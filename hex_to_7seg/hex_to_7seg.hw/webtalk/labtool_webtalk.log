@@ -1,0 +1,9 @@
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source E:/_Vivado/MIPS_CPU_Design/hex_to_7seg/hex_to_7seg.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 54.621 ; gain = 1.426
+INFO: [Common 17-206] Exiting Webtalk at Thu Nov 15 21:20:48 2018...

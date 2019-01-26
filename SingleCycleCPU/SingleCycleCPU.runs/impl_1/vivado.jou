@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Nov 19 18:04:19 2018
+# Process ID: 5776
+# Current directory: E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.runs/impl_1
+# Command line: vivado.exe -log Basys3_CPU.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Basys3_CPU.tcl -notrace
+# Log file: E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.runs/impl_1/Basys3_CPU.vdi
+# Journal file: E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Basys3_CPU.tcl -notrace

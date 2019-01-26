@@ -1,0 +1,25 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 07560b714658455f86b4041a7747576f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_1_behav xil_defaultlib.CPU_sim_1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 6 differs from formal bit length 5 for port WriteReg [E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/top_CPU.v:77]
+WARNING: [VRFC 10-278] actual bit length 6 differs from formal bit length 5 for port out [E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/top_CPU.v:101]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.ImmediateExtend
+Compiling module xil_defaultlib.Mux4_32bits
+Compiling module xil_defaultlib.Mux2_5bits
+Compiling module xil_defaultlib.Mux2_32bits
+Compiling module xil_defaultlib.top_CPU
+Compiling module xil_defaultlib.CPU_sim_1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_sim_1_behav

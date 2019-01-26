@@ -1,0 +1,41 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/ImmediateExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmediateExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Mux2_5bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2_5bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Mux4_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Mux2_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/top_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/clk_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Counter4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Hex_To_7Seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hex_To_7Seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Mux4_4bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4_4bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Four_LED.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Four_LED
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Basys3_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basys3_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Button_Debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Button_Debounce
+INFO: [VRFC 10-311] analyzing module ClockDivisor
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Mux4_16bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4_16bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/SingleCycleCPU/SingleCycleCPU.srcs/sim_1/new/CPU_sim_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim_1

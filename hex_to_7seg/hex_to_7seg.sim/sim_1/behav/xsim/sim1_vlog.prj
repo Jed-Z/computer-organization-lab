@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../hex_to_7seg.srcs/sources_1/new/Counter4.v" \
+"../../../../hex_to_7seg.srcs/sources_1/new/Hex_To_7Seg.v" \
+"../../../../hex_to_7seg.srcs/sources_1/new/Mux4_8bits.v" \
+"../../../../hex_to_7seg.srcs/sources_1/new/clk_div.v" \
+"../../../../hex_to_7seg.srcs/sources_1/new/top_LEDs.v" \
+"../../../../hex_to_7seg.srcs/sim_1/new/sim1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

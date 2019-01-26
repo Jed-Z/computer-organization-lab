@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1545640692">
+  <File Type="ROUTE-PWR" Name="Basys3_CPU_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Basys3_CPU.tcl"/>
+  <File Type="PWROPT-DCP" Name="Basys3_CPU_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Basys3_CPU_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Basys3_CPU_reports.tcl"/>
+  <File Type="BG-DRC" Name="Basys3_CPU.drc"/>
+  <File Type="OPT-HWDEF" Name="Basys3_CPU.hwdef"/>
+  <File Type="OPT-DCP" Name="Basys3_CPU_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Basys3_CPU_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="Basys3_CPU_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Basys3_CPU_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Basys3_CPU_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Basys3_CPU_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Basys3_CPU_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Basys3_CPU_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Basys3_CPU_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Basys3_CPU_physopt.dcp"/>
+  <File Type="BG-BIT" Name="Basys3_CPU.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Basys3_CPU_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Basys3_CPU_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Basys3_CPU_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Basys3_CPU_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Basys3_CPU_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Basys3_CPU_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="Basys3_CPU.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Basys3_CPU_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="Basys3_CPU.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Basys3_CPU_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="Basys3_CPU.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Basys3_CPU_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="Basys3_CPU.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="Basys3_CPU_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Basys3_CPU_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Basys3_CPU_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Basys3_CPU_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Basys3_CPU_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Basys3_CPU_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Basys3_CPU_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Basys3_CPU.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Basys3_CPU_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Basys3_CPU_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="Basys3_CPU.nky"/>
+  <File Type="BITSTR-BMM" Name="Basys3_CPU_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Basys3_CPU.mmi"/>
+  <File Type="BITSTR-LTX" Name="Basys3_CPU.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Basys3_CPU.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ALU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ControlUnit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DFF_32bits.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DataMemory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IR.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ImmediateExtend.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/InstructionMemory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux2_32bits.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux4_32bits.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux4_5bits.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RegisterFile.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_CPU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Four_LED.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Basys3_CPU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux4_16bits.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_div.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Counter4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hex_To_7Seg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux4_4bits.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Basys3_CPU"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/multi_cpu.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/multi_cpu.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

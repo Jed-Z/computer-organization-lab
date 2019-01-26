@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/hex_to_7seg/hex_to_7seg.srcs/sources_1/new/Counter4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/hex_to_7seg/hex_to_7seg.srcs/sources_1/new/Hex_To_7Seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hex_To_7Seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/hex_to_7seg/hex_to_7seg.srcs/sources_1/new/Mux4_8bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4_4bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/hex_to_7seg/hex_to_7seg.srcs/sources_1/new/clk_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/hex_to_7seg/hex_to_7seg.srcs/sources_1/new/top_LEDs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_LEDs
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/_Vivado/MIPS_CPU_Design/hex_to_7seg/hex_to_7seg.srcs/sim_1/new/sim1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim1
