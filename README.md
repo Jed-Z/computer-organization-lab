@@ -12,11 +12,11 @@
 
 - MultiCycleCPU
 
-  多周期 CPU 设计与实现。
+  多周期 CPU 设计与实现。详见`单周期CPU设计_报告文档.pdf`。
 
 - SingleCycleCPU
 
-  单周期 CPU 设计与实现。
+  单周期 CPU 设计与实现。详见`多周期CPU设计_报告文档.pdf`。
 
 - hex_to_7seg
 
