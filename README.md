@@ -1,4 +1,4 @@
-# MIPS CPU Design
+# 计算机组成原理实验
 
 使用 Verilog HDL 实现的简易**单周期 CPU 设计**和**多周期 CPU 设计**。
 
